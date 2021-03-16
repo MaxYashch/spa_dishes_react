@@ -5,6 +5,18 @@ function Footer() {
                 <div className="container">
                     © {new Date().getFullYear()} Copyright Text
                 </div>
+                <ul id="nav-mobile" className="right hide-on-med-and-down">
+                    <li>
+                        <a
+                            href="https://github.com/MaxYashch/spa_dishes_react"
+                            target="_blank"
+                            rel="noreferrer"
+                            className='repo'
+                        >
+                            Repo
+                        </a>
+                    </li>
+                </ul>
             </div>
         </footer>
     );

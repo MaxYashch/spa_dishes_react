@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 function Search({cb = Function.prototype}) {
     const [value, setValue] = useState('');
