@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Header() {
     return (
         <nav className="blue darken-2">
@@ -7,13 +9,18 @@ function Header() {
                 </a>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
                     <li>
-                        <a
-                            href="#"
-                            target="_blank"
-                            rel="noreferrer"
+                        <Link
+                            to="/about"
                         >
-                            Repo
-                        </a>
+                            About
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                            to="/contacts"
+                        >
+                            Contacts
+                        </Link>
                     </li>
                 </ul>
             </div>
